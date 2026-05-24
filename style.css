@@ -14,18 +14,19 @@ header {
     text-align: center;
     border-radius: 10px;
    }
-    h1{
-        color: #8ba4f7;
-        font-size: 36px;
-        margin: 0;
-    }
 
-    .descrição-cabeçalho{
-        color: #839cee;
-        font-size: 18px;
-        margin-top: 10px;
-        gap: 15px;
-    }
+h1{
+    color: #8ba4f7;
+    font-size: 36px;
+    margin: 0;
+}
+
+.descrição-cabeçalho{
+    color: #839cee;
+    font-size: 18px;
+    margin-top: 10px;
+    gap: 15px;
+}
 
 
 nav {
@@ -38,7 +39,7 @@ nav {
 }
 
 nav a {
-    color: rgb(18, 101, 255);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -55,7 +56,7 @@ nav a:hover {
 div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
